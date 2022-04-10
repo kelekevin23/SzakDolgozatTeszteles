@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+@media screen and (max-width:1200px){
+    #szures_form{
+        font-size: 13px;
+    }
+    .adatlap-oldalszerkezet{
+        grid-template-columns: 1fr;
+        padding-top: 20px;
+    }
+    #kosarbaGomb{
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+    #kosarbaGomb label{
+        font-size: 25px;
+    }
+    .kosarba{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    #kosarbaGomb input{
+        height: 25px;
+        width: 25px;
+    }
+    #menny{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1000px){
+    #szures_form{
+        font-size: 10px;
+    }
+    .adatFeltolt{
+        font-size: 12px;
+    }
+    #adatok_tarolo p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #szures_form{
+        font-size: 8px;
+    }
+    #szuresGombok{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #szures-gomb{
+        font-size: 15px;
+    }
+    #szures-torol{
+        font-size: 12px;
+    }
+    
+    .info{
+        padding: 0px;
+        width: 60%;
+    }
+    .info a{
+        font-size: 12px;
+    }
+    #adatok_tarolo{
+        padding-bottom: 10px;
+    }
+    #adatok_tarolo p{
+        height: 10px;
+    }
+    
+    #kosarbaGomb label{
+        font-size: 20px;
+    }
+    .kosarba{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #kosarbaGomb input{
+        height: 20px;
+        width: 20px;
+    }
+    #menny{
+        font-size: 12px;
+    }
+    .szinek button{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+@media screen and (max-width:700px){
+    #szures_form{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    input[type=radio] {
+        width: 8px;
+    }
+    input[type=checkbox] {
+        width: 8px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .lapozElem button{
+        font-size: 8px;
+    }
+    .info a{
+        font-size: 9px;
+    }
+    #adatlap_szinek{
+        width: 80%;
+        font-size: 14px;
+    }
+    #adatok_tarolo p{
+        height: 6px;
+    }
+    .adatlap_tarolo th, .adatlap_tarolo td{
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (max-width:400px){
+    .lapozElem button{
+        font-size: 6px;
+    }
+}

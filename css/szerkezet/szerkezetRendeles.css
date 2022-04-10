@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* Rendelés oldal */
+.urlapRendeles{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px; 
+}
+.urlapRendeles legend{  
+    font-size: 20px;
+}
+
+.rendelesTablazat{
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+}
+.rendAdatok{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.rendAdatok label{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    text-align: center;
+}
+#osszeg{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid red;
+}
+#rendVeglegesites{
+    background: limegreen;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+/* Rendelés oldal vége */

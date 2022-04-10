@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@media screen and (max-width:1200px){
+    #terkep{
+        height: 300px;
+    }
+    #terkep-felirat{
+        font-size: 14px;
+    }
+    .kapcsolat-div{
+        font-size: 14px;
+    }
+    #kapcsolat-text{
+        width:80%;
+        margin: auto;
+        height: 60px;
+    }
+    #kapcsolat-gomb{
+        font-size: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+@media screen and (max-width:1000px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
+        border: 1px solid black;
+    }
+    #panel{
+        grid-column: 1 / 4;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid brown;
+        width: 90%;
+        margin: auto;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    table{
+        font-size: 12px;
+    }
+    td, th{
+        padding: 2px;
+    }
+    #keresosav{
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:800px){
+    nav li{
+        font-size: 16px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    #belepes, #regisztracio{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:700px){
+    main{
+        width: 100%;
+    }
+    table{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width:600px){
+    td, th{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:400px){
+    nav li{
+        font-size: 12px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}

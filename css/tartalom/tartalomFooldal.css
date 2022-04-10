@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* Képgaléria */
+
+#balkep, #jobbkep{
+    width: 60%;
+    margin: auto;
+    opacity: 0.4;
+}
+#jobb, #bal{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+/* Képgaléria vége */
+
+/* Táblázat */
+aside{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td, th{
+    padding: 5px;
+    margin: auto;
+}
+table tr{
+    background-color: white;
+}
+.szinek button{
+    height: 15px;
+}
+/* Táblázat vége */

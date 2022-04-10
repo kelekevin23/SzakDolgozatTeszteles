@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* Képgaléria */
+#kepGaleria{
+    mix-blend-mode: multiply;
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+}
+#kepGaleria img{
+    width: 70%;
+}
+/* Képgaléria vége */
+
+/* Táblázat */
+table{
+    border: 2px solid brown;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.szinek{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Táblázat vége */

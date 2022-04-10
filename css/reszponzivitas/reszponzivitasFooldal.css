@@ -1,0 +1,29 @@
+@charset "utf-8";
+@media screen and (max-width:1200px){
+    .marka{
+        font-size: 15px;
+    }
+    #cim{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .szinek button{
+        height: 10px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .marka{
+        font-size: 10px;
+    }
+    #cim{
+        font-size: 15px;
+    }
+    .szinek button{
+        width: 8px;
+        height: 8px;
+    }
+
+}

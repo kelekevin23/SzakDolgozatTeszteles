@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+/* Fejléc */
+.header-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+header{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: white;
+    border: 1px solid black;   
+}
+/* Fejléc vége */
+
+/*Bejelentkezés, Regisztráció gombok */
+#panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+#regisztracio-panel{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#belepes-panel{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.error{
+    text-align: left;
+}
+/*Bejelentkezés, Regisztráció gombok vége*/
+
+/* Belépés és Regisztráció panel */
+.form-popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+.form-container input[type=text], .form-container input[type=password] {
+    width: 80%;
+    padding: 15px;
+    margin: 11px 0 11px 0;
+    border: none;
+    background: lightgrey;
+}
+.form-container .btn, .form-container .btncancel{
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+/* Belépés és Regisztráció panel vége */
+
+/* Navigáció */
+#menu{
+    display: grid;
+    text-align: center;
+}
+
+/* Navigáció vége */
+
+
+
+/* Kosár oldal */
+.kosarTablazat{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.kosarGombok{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Kosár oldal vége */
+
+

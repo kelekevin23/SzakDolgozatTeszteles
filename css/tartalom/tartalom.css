@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/* Fejléc */
+header h1{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+.kereso-panel{
+    height: 50%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#keresosav{    
+    height: 100%;
+    width: 99%;   
+    background-color: lightgrey;
+    border: none;
+}
+/* Fejléc vége */
+
+/*Bejelentkezés, Regisztráció, Kijelentkezés gombok */
+article{
+    text-align: center; 
+    color: brown;
+}
+#belepes, #regisztracio, #kijelentkezes{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+#regisztracio{
+    border-left: 1px solid brown;
+}
+#udvozles{
+    text-align: center;
+    color: brown;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+#kijelentkezesForm{
+    border-left: 1px solid brown;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/*Bejelentkezés, Regisztráció, Kijelentkezés gombok vége*/
+
+/* Belépés és Regisztráció panel */
+.form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.form-container label{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.form-container .btn{
+    background-color: #04AA6D;
+}
+.form-container .btncancel {
+    background-color: red;
+}
+/* Belépés és Regisztráció panel vége*/
+
+/* Navigáció */
+nav li{
+    list-style-type: none;
+    background-color: brown;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav button{
+    border: none;
+    background-color: brown;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+/* Navigáció vége */
+
+/* Kosár oldal */
+.kosarTablazat{
+    background-color: white;
+    border: 3px solid brown;
+    font-size: 16px;
+}
+.kosarTablazat th, .kosarTablazat td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.kosarAdatok{
+    text-align: center;
+    padding-top: 10px; 
+}
+.torolKosar{
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    height: 50%;
+}
+.kosarTablazat tr:nth-child(odd) {
+    background-color: #D6EEEE;
+}
+.rendeles{
+    background: limegreen;
+    color: white;
+    font-size: 25px;
+}
+/*.kepbetolt img{
+    width: 30%;  
+}*/
+/* Kosár oldal vége */
+
+/* Kapcsolat */
+
+#terkep-felirat{
+    font-size: 20px;
+}
+#terkep{
+    border: none;
+    width:80%; 
+    height: 500px;
+}
+.kapcsolat-div{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#kapcsolat-text{
+    width:80%;
+    margin: auto;
+}
+#kapcsolat-gomb{
+    color: white;
+    width: 20%;
+    margin: auto;
+    background-color: brown;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Kapcsolat vége */

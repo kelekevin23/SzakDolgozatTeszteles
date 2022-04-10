@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+@media screen and (max-width:1200px){
+
+}
+@media screen and (max-width:1000px){
+    .kepetMutat{
+        font-size: 10px;
+    }
+    .torolKosar{
+        font-size: 15px;
+        height: 50%;
+    }
+    .rendeles{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:910px){
+    .kosarTablazat{
+        font-size: 10px;
+    }
+    .kepetMutat{
+        font-size: 8px;
+    }
+    .torolGombok{
+        font-size: 8px;
+    }
+    .urlapRendeles{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .rendAdatok{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .kosarTablazat{
+        font-size: 10px;
+    }
+    .kepetMutat{
+        font-size: 8px;
+    }
+    .torolGombok{
+        font-size: 8px;
+    }
+
+}
+
